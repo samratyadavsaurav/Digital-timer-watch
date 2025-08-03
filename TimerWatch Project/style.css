@@ -1,0 +1,65 @@
+.container{
+  width:90%;
+  max-width:1400px;
+  /* background-color:yellow; */
+  display:flex;
+  justify-content:center;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border:3px solid  yellow;
+  border-radius:15px;
+ 
+}
+
+
+.clockHolder{
+  /* width:76rem; */
+  width:100%;
+   background-color: #1b252a;
+   padding:30px 50px;
+   border-radius:15px;
+   border: 3px solid #f5ee62;
+   box-shadow: rgba(222, 238, 42, 0.1) 0px 4px 6px;
+   
+}
+
+.timeHolder{
+  display:flex;
+  align-items:center;
+  gap:3.2rem;
+  justify-content:center;
+}
+
+.timerIcons{
+  display:flex;
+  flex-direction:column;
+  gap:1.2rem;
+  justify-items:start;
+  color:aliceblue;
+}
+
+.mainDiv{
+  width:100%;
+  text-align:center;
+}
+
+#clock{
+  font-size:9.8rem;
+  text-transform:uppercase;
+  color:rgba(255,255,255,0.3);
+}
+
+ .bottom{
+  width:50%;
+  height:15px;
+  background-color:yellow;
+  position:relative;
+  top:640px;
+  margin-left:25%;
+  border-radius:30px;
+  box-shadow: 5px 0 5px #bfa800;
+  
+ 
+} 
